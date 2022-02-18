@@ -12,9 +12,14 @@
 
     <form id ="survey-form">
 
-        <input type="text" id="name" value="name" required>
-        <input type="email" id="email" value="email" required>
-        <input type="number" id="number" value="number" required min="0" max="100">
+        <label id ="name-label">Name: </label> <br>
+        <input type="text" id="name" value="name" placeholder="Insert Name" required>
+
+        <label id ="email-label">Email: </label> <br>
+        <input type="email" id="email" value="email" placeholder="Insert Email" required>
+
+        <label id ="number-label">Number: </label> <br>
+        <input type="number" id="number" value="number" required min="0" max="100" placeholder="Insert a number between 0-100">
 
     </form>
 
